@@ -1,0 +1,144 @@
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .navbar {
+        background-color: #e82574;
+    }
+    .navbar .text{
+        color: white;
+    }
+    .navbar-nav{
+        align-items: center;
+    }
+    .navbar .btn{
+        display: none;
+    }
+    .home-text h1{
+        font-size: 50px;
+    }
+    .about-content{
+        flex-direction: column;
+        margin: 10px;
+        gap: 50px;
+    }
+    .about-content img{
+        width: 100%;
+    }
+    .about-content h1{
+        font-size: 40px;
+    }
+    .about-content p{
+        font-size: 16px;
+    }
+    .services-content{
+        width: 100vw;
+        right: 0;
+    }
+    .counting{
+        max-width: 90vw;
+        margin: 20px auto;
+    }
+
+    .contact{
+        flex-direction: column;
+        max-width: 100vw;
+    }
+    .contact-info{
+        width: 100%;
+    }
+    .contact-msg{
+        width: 100%;
+        margin: 0;
+    }
+    .footer .options p{
+        margin-top: 0;
+    }
+    .footer .options .option{
+        flex-basis: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 30px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar {
+        background-color: #e82574;
+    }
+    .navbar .text{
+        color: white;
+    }
+    .navbar-nav{
+        align-items: center;
+    }
+    .navbar .btn{
+        display: none;
+    }
+    .about-content{
+        flex-direction: column;
+    }
+} */
+
+/* Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) and (max-width: 991.98px) { */
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .navbar {
+        background-color: #e82574;
+    }
+    .navbar .text{
+        color: white;
+    }
+    .navbar-nav{
+        align-items: center;
+    }
+    .navbar .btn{
+        display: none;
+    }
+    .about-content{
+        flex-direction: column;
+    }
+    .about-content img{
+        width: 100%;
+    }
+
+
+    .contact{
+        flex-direction: column;
+        max-width: 100vw;
+    }
+    .contact-info{
+        max-width: 100%;
+    }
+    .contact-msg{
+        max-width: 100%;
+        margin: 0;
+    }
+
+
+    .footer .options p{
+        margin-top: 0;
+    }
+    .footer .options .option{
+        flex-basis: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 30px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .mt-lg-n-20vh {
+        margin-top: -20vh;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .mt-xl-n-20vh {
+        margin-top: -20vh;
+    }
+}
